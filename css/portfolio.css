@@ -1,0 +1,15 @@
+.summaryGW, .imgFF{
+  float: left;
+  width: 50%;
+  text-align: left;
+}
+.summaryFF, .imgGW{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+#macImg{
+  width: 80%;
+  height: 80%;
+}
