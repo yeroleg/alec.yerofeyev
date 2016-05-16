@@ -1,0 +1,149 @@
+  body{
+    background-image: url(background.jpg);
+    background-color: white;
+    no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+
+  main {
+    width: 100%;
+    padding: 30px;
+    margin: 50px auto auto auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    color: rgba(255, 255, 255, 1);
+    font-family: 'Open Sans', helvetica, sans-serif;
+    font-size: 1.25em;
+    box-sizing: border-box;
+  }
+
+  .content {
+    -webkit-animation: fadeIn .4s ease-in .99s both;
+    animation: fadeIn .4s ease-in .99s both;
+    width: 960px;
+  }
+
+  header{
+    width: 100%;
+    position: relative;
+  }
+
+  .title, .titleImg{
+    float: left;
+  }
+
+  h1, h2, h3, h4, p, a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow:  1px 2px black;
+  }
+
+  a:hover{
+    text-shadow: 0 0 10px white;
+  }
+
+  a{
+    text-decoration: none;
+  }
+
+  .x{
+    float: right;
+    margin-right: 4%;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+    clear: both;
+    width: 50%;
+    text-align: right;
+  }
+
+  #xId:hover{
+    text-shadow: 0 0 10px white;
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-decoration: none;
+  }
+
+  a{
+    font-family: 'Josefin Sans', sans-serif;
+    color: white;
+    text-shadow:  1px 2px black;
+    text-decoration: none;
+    }
+
+  a:hover{
+    text-shadow: 0 0 10px white;
+    text-decoration: none;
+  }
+
+  .social{
+    width: 100%;
+    margin-top: 5%;
+    box-sizing: border-box;
+  }
+
+  #icon:hover{
+    -moz-box-shadow: 0 0 10px #ccc;
+    -webkit-box-shadow: 0 0 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+  }
+
+  #icon{
+    height: 40px;
+    width:  40px;
+    border-radius: 80%;
+  }
+
+  .imgHeader{
+    margin:auto;
+    width: 70%;
+    height: 70%;
+  }
+
+  hr{
+    clear: both;
+  }
+
+  @-webkit-keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    @keyframes fadeIn {
+        0% {
+            opacity: 0;
+        }
+        100% {
+            opacity: 1;
+        }
+    }
+
+    .content {
+        -webkit-animation: fadeIn .4s ease-in .99s both;
+        animation: fadeIn .4s ease-in .99s both;
+        width: 960px;
+        max-width: 100%;
+    }
+
+
+/* @TODO move this to global */
+table { width: 100%; }
+.clearfix:after {
+  content: ' ';
+  visibility: hidden;
+  clear: both;
+  display: block;
+  font-size: 0;
+  height: 0;
+}
+
+/* how to use '.clearfix' <div class="clearfix"> <div> THis is floated </div> <div> This is floated </div> </div>
