@@ -44,6 +44,18 @@
   text-shadow:  1px 2px black;
 }
 
+#titleH1{
+  font-size: 40px;
+  font-weight: bold;
+  padding-top: 1%;
+}
+
+#titleP{
+  padding-top: 7%;
+  padding-bottom: 4%;
+  font-size: 19px;
+}
+
 .container-right{
   float: right;
   width: 50%;

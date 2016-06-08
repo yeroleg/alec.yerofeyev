@@ -48,18 +48,6 @@ header{
     color: white;
   }
 
-  #titleH1{
-    font-size: 40px;
-    font-weight: bold;
-    padding-top: 1%;
-  }
-
-  #titleP{
-    padding-top: 9%;
-    padding-bottom: 4%;
-    font-size: 19px;
-  }
-
 h1, h2, h3, h4, p, a{
   font-family: 'Josefin Sans', sans-serif;
   color: white;
