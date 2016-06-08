@@ -72,6 +72,15 @@
   display: none;
   }
 
+  #titleP{
+    padding-top: 6px;
+    padding-bottom: 0px;
+  }
+
+  #titleH1{
+  padding-top:0px;
+  }
+
 .imgHeader{
   float: none;
   width: 20%;
