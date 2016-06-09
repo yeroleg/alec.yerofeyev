@@ -41,11 +41,12 @@ header{
     text-shadow: 0 0 10px white;
     font-family: 'Josefin Sans', sans-serif;
     color: white;
-    text-decoration: none;
+    text-decoration:line-through;
+    font-size: 14px;
   }
 
   #xId{
-    color: white;
+    color: grey;
   }
 
 h1, h2, h3, h4, p, a{
