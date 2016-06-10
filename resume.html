@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/global.css" media="screen" title="header" charset="utf-8">
     <link rel="stylesheet" href="css/resume.css" media="screen" charset="utf-8">
     <link rel="stylesheet" href="css/media.css" media="screen" charset="utf-8">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 
@@ -239,5 +240,14 @@
 </div>
 </div>
 </main>
+
+<script type="text/javascript">
+$('body').click(function(e){
+    if (e.target === this) {
+        window.location = "index.html"
+    }
+});
+</script>
+
 </body>
 </html>

@@ -7,8 +7,8 @@
     <link href='css/global.css' rel='stylesheet' type='text/css'>
     <link href='css/portfolio.css' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/media.css" media="screen" title="header" charset="utf-8">
-    <script src="http://maps.googleapis.com/maps/api/js">
-    </script>
+    <script src="http://maps.googleapis.com/maps/api/js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
     <title>Yerofeyev.me</title>
 
   </head>
@@ -86,5 +86,14 @@
   </main>
   <br>
 </div>
+
+<script type="text/javascript">
+$('body').click(function(e){
+    if (e.target === this) {
+        window.location = "index.html"
+    }
+});
+</script>
+
 </body>
 </html>
