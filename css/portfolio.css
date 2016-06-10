@@ -18,3 +18,14 @@
   font-weight:bold;
   font-style: italic;
 }
+
+#top{
+  text-align: center;
+}
+
+#top:hover{
+  text-shadow: 0 0 10px white;
+  font-family: 'Josefin Sans', sans-serif;
+  color: white;
+  text-decoration:none;
+}
