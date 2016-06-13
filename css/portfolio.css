@@ -1,9 +1,9 @@
-.summaryGW, .imgFF{
+.summaryFF, .imgPF{
   float: right;
   width: 50%;
   text-align: right;
 }
-.summaryFF, .summaryPF, .imgGW, .imgPF{
+.summaryPF, .imgFF{
   float: left;
   width: 50%;
   text-align: left;
