@@ -83,7 +83,7 @@ a{
 a:hover, #pdf:hover{
   text-shadow: 0 0 10px white;
   text-decoration: none;
-  color: white;
+  color: white !important;
 }
 
 .social{
